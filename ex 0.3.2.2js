@@ -1,0 +1,20 @@
+const tarefas = [
+  {
+    titulo:'Ir a feira',
+    concluida:true,
+    dias:10,
+  },
+  {
+    titulo:'Ir na academia',
+    concluida:false,
+    dias:30,
+  },
+  {
+    titulo:'Buscar conserto na costureira',
+    concluida:false,
+    dias:1,
+  }
+];
+
+const tarefasNaoFinalizadas = tarefas.filter(tarefas => tarefa.finalizada === false);
+console.log(tarefasNaoFinalizadas);
